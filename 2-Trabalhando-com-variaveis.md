@@ -91,6 +91,7 @@ if(resposta == true) {
 ```
 
 Exemplo de confirm():
+
 <img src="https://dbushell.com/images/2012/02/macosx-confirm1.png">
 
 Já a função <b>prompt()</b> espera uma resposta, porém ela não é limitada à valores booleanos. Ou seja, o usuário pode inserir um valor numérico, uma string, ou qualquer outra informação.
@@ -103,7 +104,7 @@ var cidade = window.prompt("Onde você mora? ");
 
 window.alert("Prazer, " + nome + ", de " + cidade);
 ```
-Exemplo:
+Exemplo de uso do prompt():
 
 <img src="https://www.codeproject.com/KB/scripting/JavaScriptConsole/Window.prompt.jpg">
 
