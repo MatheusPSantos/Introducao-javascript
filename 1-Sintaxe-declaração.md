@@ -18,7 +18,7 @@ Exemplo de como inserir código Javascript em um documento html:
 </html>
 ```
 
-##Case Sensitive
+## Case Sensitive
 
 <p>Javascript é uma linguagem case sensite, ou seja, os nomes de variáveis, funções ou qualquer outra coisa que está escrito dentro de um arquivo javascript, somente pode ser identificado de uma maneira.</p>
 
