@@ -120,7 +120,8 @@ Saída:
 
 Alguns exemplos de methods do objeto string:
 
->charAt()
+* charAt()
+
 Retorna o caractere presente na posição passada por parâmetro.
 ```
 var txt = "Olá Mundo!";
@@ -129,7 +130,7 @@ var resultado = txt.charAt(2);
 Saída:
 > á
 
->indexOf()
+* indexOf()
 Retorna a posição da primeira aparição da string passada por parâmetro.
 ```
 var txt = "Olá Mundo";
@@ -138,7 +139,8 @@ var saida = txt.indexOf("Olá");
 Saída:
 > 0
 
->replace()
+* replace()
+
 Substitui uma string passada por parâmetro por outra, também passada por parâmetro.
 ```
 var txt = "Olá Mundo";
