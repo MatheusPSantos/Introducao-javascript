@@ -70,10 +70,10 @@ Exemplo:
 
 Os tipos numéricos em javascript possuem algumas propriedades. Elas só podem ser acessadas através do objeto Number.
 <table>
-    <th>
-        <td>Propriedade</td>
-        <td>Descrição</td>
-    </th>
+    <tr>
+        <th>Propriedade</th>
+        <th>Descrição</th>
+    </tr>
     <tr>
         <td>MAX_VALUE</td>
         <td>Exibe o maior número</td>
