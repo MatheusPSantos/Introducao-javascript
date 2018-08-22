@@ -67,17 +67,17 @@ Servem para que o usuário possa interagir com a página web, inserindo informa�
 
 ### Alert()
 
-A função alert() mostra um alerta na tela do usuário. Ela recebe uma string, que será exibida assim que a janela for carregada, atualizada, um botão for pressionado ou qualquer outro evento planejado.
+A função <b>alert()</b> mostra um alerta na tela do usuário. Ela recebe uma string, que será exibida assim que a janela for carregada, atualizada, um botão for pressionado ou qualquer outro evento planejado.
 
-Exemplo de um alert() com uma mensagem:
+Exemplo de um <b>alert()</b> com uma mensagem:
 
 <img src="http://ptgmedia.pearsoncmg.com/imprint_downloads/informit/learninglabs/9780134173719/graphics/01fig02.jpg">
 
 ### Confirm() e Prompt()
 
-A função de diálogo confirm() espera uma interação com usuário. Ela espera que o usuário aperte "OK" ou "Cancelar". Caso seja pressionado o botão "OK" é retornado um valor booleano true, caso contrário, é retornado false.
+A função de diálogo <b>confirm()</b> espera uma interação com usuário. Ela espera que o usuário aperte "OK" ou "Cancelar". Caso seja pressionado o botão "OK" é retornado um valor booleano true, caso contrário, é retornado false.
 
-Isso significa que a função confirm() precisa ter seu valor guardado em uma variável.
+Isso significa que a função <b>confirm()</b> precisa ter seu valor guardado em uma variável.
 Exemplo:
 
 ```
@@ -90,9 +90,9 @@ if(resposta == true) {
 }
 ```
 
-Já a função prompt() espera uma resposta, porém ela não é limitada à valores booleanos. Ou seja, o usuário pode inserir um valor numérico, uma string, ou qualquer outra informação.
+Já a função <b>prompt()</b> espera uma resposta, porém ela não é limitada à valores booleanos. Ou seja, o usuário pode inserir um valor numérico, uma string, ou qualquer outra informação.
 
-Isso significa que prompt() também retorna um valor e esse valor pode ser guardado em uma variável. Como no exemplo a seguir:
+Isso significa que <b>prompt()</b> também retorna um valor e esse valor pode ser guardado em uma variável. Como no exemplo a seguir:
 
 ```
 var nome = window.prompt("Qual o seu nome? ");
