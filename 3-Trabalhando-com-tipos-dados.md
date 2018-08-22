@@ -120,7 +120,7 @@ Saída:
 
 Alguns exemplos de methods do objeto string:
 
-* charAt()
+#### charAt()
 
 Retorna o caractere presente na posição passada por parâmetro.
 ```
@@ -130,7 +130,8 @@ var resultado = txt.charAt(2);
 Saída:
 > á
 
-* indexOf()
+#### indexOf()
+
 Retorna a posição da primeira aparição da string passada por parâmetro.
 ```
 var txt = "Olá Mundo";
@@ -139,7 +140,7 @@ var saida = txt.indexOf("Olá");
 Saída:
 > 0
 
-* replace()
+#### replace()
 
 Substitui uma string passada por parâmetro por outra, também passada por parâmetro.
 ```
@@ -149,4 +150,83 @@ alert(result);
 ```
 Saída:
 > Olá Javascript
+
+#### slice()
+
+Extrai uma parte de uma string, a partir de um ponto até outro. O range da extração é definido pelos parâmetros passados para o método.
+
+```
+var txt = "Eu sou a lenda";
+var resul = txt.slice(3,6);
+
+alert(resul);
+```
+Saída:
+> sou
+
+#### substr()
+
+Extrai uma string de outra string, informando a posição de início e o tamanho da string.
+
+```
+var txt = "Olá Mundo";
+var res = txt.substr(1, 3);
+
+alert(res);
+```
+Saída:
+> lá
+
+#### split()
+
+Separa a string em uma matriz de substrings.
+
+```
+var txt = "O que faz você feliz?";
+var res = txt.split('');
+
+```
+Saída:
+> ["O", " ", "q", "u", "e", " ", "f", "a", "z", " ", "v", "o", "c", "ê", " ", "f", "e", "l", "i", "z", "?"]
+
+#### toLowerCase() e toUpperCase()
+
+<b>toLowerCase()</b> transforma muda a caixa da string para caixa baixa. <b>toUpperCase()</b> transforma todas os caracteres da string em maiúsculos.
+
+#### trim()
+
+Remove espaços vazios, antes e depois da string.
+
+```
+var t = "       oi         oi      oi";
+alert(t.trim());
+```
+Saída:
+> "oi         oi      oi"
+
+
+## Conversões
+
+#### Númerico ---> Sttring
+
+Para converter um tipo numérico em string, pode-se usar a função global <b>String()</b> ou o método <b>toString()</b>.
+
+* String()
+
+```
+var num = 41.58;
+var res = String(num);
+```
+
+* toString()
+
+```
+var num = 123.12;
+var res = num.toString();
+```
+
+#### String ----> Numérico
+
+Para converter uma string em um tipo numérico, pode ser usado o método
+
 
