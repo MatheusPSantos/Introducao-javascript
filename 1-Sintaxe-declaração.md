@@ -3,7 +3,7 @@
 Em uma página web é possível declarar um trecho de código em Javascript através das tags <script></script>.
 
 Exemplo de como inserir código Javascript em um documento html:
-´´´
+```
 <!Doctype html>
 <html>
     <head>
@@ -17,4 +17,4 @@ Exemplo de como inserir código Javascript em um documento html:
     <body>
 </html>
 
-´´´
+```
