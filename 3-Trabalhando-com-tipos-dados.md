@@ -1,7 +1,7 @@
 # Trabalhando com tipos de dados
 
 Assim como todas as linguagens de programação, javascript possui tipos de daos:
-* númericos
+* numéricos
 * booleanos
 * texto
 
