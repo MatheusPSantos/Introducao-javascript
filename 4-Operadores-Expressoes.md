@@ -171,19 +171,15 @@ São unários pois atuam em cima de um operando.
         <th>Operador</th>
         <th>Descrição</th>
     </tr>
-
     <tr>
         <td>++</td>
         <td>Incrementa 1 ao operando</td>
-    </tr>
-    
+    </tr>    
     <tr>
         <td>--</td>
         <td>Decrementa 1 ao operando</td>
-    </tr>
-    
+    </tr>    
     <tr>
         <td>-</td>
         <td>Altera o valor do operando para um valor negativo</td>
-    </tr>
-</table>
+    </tr></table>
