@@ -227,6 +227,42 @@ var res = num.toString();
 
 #### String ----> Numérico
 
-Para converter uma string em um tipo numérico, pode ser usado o método
+Para converter uma string em um tipo numérico, pode ser usado os métodos:
 
+* parseInt()
+
+Para passar a string para inteiro
+Exemplos:
+
+> var num1 = parseInt("5");
+
+Saída: 5
+
+> var num2 = parseInt("5.00");
+
+Saída: 5
+> var num3 = parseInt("14 56 78");
+
+Saída: 14
+> var num4 = parseInt("0x50");
+
+Saída: 80
+
+* parseFloat()
+
+Para converter uma string em um tipo flutuante.
+
+Exemplos:
+
+> var num1 = parseFloat("5");
+
+Saída: 5
+
+> var num2 = parseFlaot("80 anos");
+
+Saída: 80
+
+> var num2 = parseFlaot("tenho 80 anos");
+
+Saída: NaN
 
