@@ -60,15 +60,19 @@ Captura os elementos com a tag especificada.
 Serve para criar elementos.
 
 * createElemet()
+
 Cria um novo elemento
 
 * createTextNode()
+
 Para criar um texto html para a tag criada por createElement()
 
 * appendChield()
+
 Adicionar o novo elemento no DOM
 
 ## Removendo Elementos
 
 * removeChild()
+* 
 Remover um elemento do DOM
