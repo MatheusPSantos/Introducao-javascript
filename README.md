@@ -4,7 +4,7 @@
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"  width="300" heigth="300">
 
-LINK DO SLIDE --> https://docs.google.com/presentation/d/1kJuu6KMUNiO3Wqvywvl1JBm7YHzFd9D3LIk2pc4AH2Q/edit?usp=sharing
+LINK DO SLIDE -->  https://drive.google.com/file/d/15LjvzCGPKmBGgAB7mYYqvbN9J_YjQf6C/view?usp=sharing
 
 Textos baseados em pesquisas na internet e no excelente livro da Daniele Borges dos Reis.
 
